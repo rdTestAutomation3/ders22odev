@@ -65,7 +65,7 @@ public class DriverFactory {
     }
 
     public static void initRemoteDriver() {
-      //  String host="http://localhost:4444/wd/hub";
+        //String host="http://localhost:4444/wd/hub";
         String host = propertyManager.getProperty("SELENIUM_HUB_URL");
 
         String browserName = "CHROME";

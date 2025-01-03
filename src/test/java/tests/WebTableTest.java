@@ -15,6 +15,7 @@ public class WebTableTest extends BaseTest{
     @BeforeMethod
     public void setUp() {
         pageManager.webTablePage.open();
+      
 
     }
 

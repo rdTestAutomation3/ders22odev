@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.testng.Assert.assertTrue;
 
 public class ButtonTest extends BaseTest{
-PageManager pageManager=new PageManager();
+    PageManager pageManager=new PageManager();
 
     @BeforeMethod
     public  void before() {
