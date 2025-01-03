@@ -30,7 +30,7 @@ public class DriverFactory {
         Configuration.browserSize = "1920x1080";
         Configuration.holdBrowserOpen = false;
         Configuration.screenshots = true;
-        //Configuration.timeout = 10000;
+        Configuration.timeout = 10000;
         //Configuration.pageLoadTimeout = 30000;
        // Configuration.reportsFolder = "target/test-results/screenshots";
         Configuration.headless = Objects.equals(propertyManager.getProperty("HEADLESS"), "Y");
@@ -123,6 +123,7 @@ public class DriverFactory {
         Selenide.clearBrowserCookies();
         Selenide.clearBrowserLocalStorage();
     }
+
    // public static void close(){
         //currentDriver().quit();
   //  }

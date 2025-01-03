@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
 
 public class BaseTest {
-    protected PageManager pageManager;
+    public PageManager pageManager;
     protected SoftAssert softAssert;
 
     @BeforeClass

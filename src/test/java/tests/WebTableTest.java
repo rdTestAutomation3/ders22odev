@@ -1,7 +1,8 @@
 package tests;
 
 
-import com.codeborne.selenide.Selenide;
+//import com.codeborne.selenide.Selenide;
+import common.PageManager;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,6 +10,7 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.$;
 
 public class WebTableTest extends BaseTest{
+    PageManager pageManager=new PageManager();
 
     @BeforeMethod
     public void setUp() {
@@ -20,9 +22,10 @@ public class WebTableTest extends BaseTest{
     public void testAddAndEditRecord() {
 
         // Sayfayı açıyoruz
-        Selenide.open("https://demoqa.com/webtables");
+        //Selenide.open("https://demoqa.com/webtables");
 
         // "ADD" butonuna tıklıyoruz
+        pageManager.webTablePage.open();
         pageManager.webTablePage.addButton().click();
 
         // Yeni kaydın bilgilerini giriyoruz

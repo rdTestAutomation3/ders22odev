@@ -9,8 +9,10 @@ public class PropertyManager {
 
     Properties property;
 
+
     public PropertyManager() {
         Properties props = new Properties();
+
         try {
             props.load(new FileReader(new File(ClassLoader.getSystemResource("config.properties").getPath())));
             property = props;

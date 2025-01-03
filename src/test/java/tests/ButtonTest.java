@@ -1,6 +1,6 @@
 package tests;
 
-
+import common.PageManager;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -8,11 +8,12 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.testng.Assert.assertTrue;
 
 public class ButtonTest extends BaseTest{
-
+PageManager pageManager=new PageManager();
 
     @BeforeMethod
     public  void before() {
-    pageManager.buttonPage.open();
+
+        pageManager.buttonPage.open();
     }
 
     @Test
