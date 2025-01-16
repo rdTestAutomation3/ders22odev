@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
-            <version>4.16.1</version>
+            <version>4.17.0</version>
         </dependency>
 
 
@@ -42,13 +42,13 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-support</artifactId>
-            <version>4.16.1</version>
+            <version>4.17.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
-            <version>4.16.1</version>
+            <version>4.17.0</version>
         </dependency>
 
             <!-- AssertJ Bağımlılığı -->
@@ -63,14 +63,14 @@
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.3.0</version> <!-- Güncel sürüm -->
+            <version>5.3.1</version> <!-- Güncel sürüm -->
         </dependency>
 
 
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.9.0</version> <!-- İhtiyaca göre versiyon numarasını değiştirebilirsiniz -->
+            <version>7.10.2</version> <!-- İhtiyaca göre versiyon numarasını değiştirebilirsiniz -->
             <scope>test</scope>
         </dependency>
 
